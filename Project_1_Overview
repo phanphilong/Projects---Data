@@ -14,3 +14,77 @@ Tools
 Outputs
 - Daily revenue trend (Oct 2019)
 - Bar chart of top 10 revenue products
+
+Here’s a preview of the full content from your **E-Commerce Sales Analysis – October 2019** PDF:
+
+---
+
+E-Commerce Sales Analysis – October 2019
+
+---
+
+Objective
+
+To analyze online user purchasing behavior from a real e-commerce platform in October 2019, focusing on product revenue contribution and revenue trends over time.
+
+---
+
+Dataset Overview
+
+* Source: Kaggle - E-Commerce Behavior Data from Multi-Category Store
+* Volume: \~42 million rows total (filtered to 549,507 purchase rows for Oct 2019)
+* Columns used: `event_time`, `product_id`, `price`, `user_id`, `event_type`
+* Filtered by: `event_type == 'purchase'`
+
+---
+
+Methodology
+
+* Loaded a 2GB CSV file in 100,000-row chunks using `pandas.read_csv(..., chunksize=...)`
+* Cleaned data: removed missing values, converted `event_time` to datetime
+* Filtered only purchase events for analysis
+* Aggregated purchase data to calculate:
+
+  * Top revenue-generating products
+  * Daily revenue trends
+* Visualized insights using matplotlib bar and line charts
+
+---
+
+Key Insights**
+
+Top Products by Revenue
+
+* The top 10 products each generated over \$2M in revenue.
+* The single highest-grossing product ID: **1005151**, which drove over \$12M in revenue alone.
+* Revenue is highly concentrated — top 10 products account for a large share of total monthly revenue, suggesting a **Pareto effect (80/20 rule)**.
+
+Daily Revenue Trends
+
+* Peak sales occurred around **October 15–17**, with revenue reaching \~\$8.9M/day.
+* After mid-month, revenue gradually declined, possibly due to promotion cycles ending.
+* Sales remained relatively strong during the first 2 weeks and dropped toward the end of the month.
+
+---
+
+Visual Outputs
+
+1. Top 10 Products by Revenue – Horizontal bar chart
+2. Daily Revenue Trend – Line chart showing revenue fluctuations over each day of October
+
+---
+
+Tools & Skills Used
+
+* **Python**: pandas, matplotlib
+* **Techniques**: Chunked data loading, `.groupby()`, `.describe()`, plotting, filtering, date handling
+* **Environment**: Spyder IDE
+
+---
+
+Resume Bullet Example
+
+* Analyzed 500K+ e-commerce purchases in Python to identify top revenue-driving products and peak sales periods in Oct 2019
+* Built dynamic visualizations of product-level and daily sales trends using matplotlib, uncovering \$12M+ revenue concentration in top SKUs
+* Applied data cleaning, chunk loading, and datetime conversion to process 2GB+ of transactional data efficiently
+
