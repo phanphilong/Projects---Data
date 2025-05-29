@@ -1,16 +1,16 @@
-# E-Commerce Sales Analysis Project
+E-Commerce Sales Analysis Project
 
 Analyzed 1M+ online retail transactions from Oct 2019 using Python and pandas to understand revenue trends and top-performing products.
 
-## Key Findings
+Key Findings
 - Top 10 products generated over 30% of total revenue
 - Purchase activity peaked on weekdays between 7–9PM
 - $X total revenue from Y unique users
 
-## Tools
+Tools
 - Python, pandas, matplotlib
 - Dataset: Kaggle E-Commerce Behavior Data
 
-## Outputs
+Outputs
 - Daily revenue trend (Oct 2019)
 - Bar chart of top 10 revenue products
