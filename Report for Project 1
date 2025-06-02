@@ -1,0 +1,43 @@
+Link to dataset analyzed: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
+
+Project 1: E-Commerce Sales Analysis
+Tools: Python (pandas, matplotlib), Jupyter Notebook
+Goal: Analyze e-commerce order data to uncover sales patterns, top-performing products, and strategic insights that can inform business decisions.
+
+Daily Revenue Trend – October 2019
+
+The highest single-day revenue peaked around October 16, reaching over $8.5M.
+
+Revenue was volatile in the first week, then spiked sharply mid-month before gradually declining toward month-end.
+
+Suggests a mid-month promotional event or surge in high-ticket orders.
+
+Top 10 Products by Total Revenue
+
+Product 1005115 led with over $12M in total revenue, followed closely by Product 1005105.
+
+The top 2 products alone account for over 25% of total revenue.
+
+There’s a steep drop-off after the top 3 products, indicating a heavy reliance on a few bestsellers.
+
+Key Findings
+Insight	Explanation
++,Revenue Peaks	Mid-October showed the most revenue activity, possibly tied to a marketing event or sale.
++,Product Concentration	A small group of SKUs drives the majority of revenue.
++,Trend Suggestion	Revenue tapers off steadily — consider end-of-month promotions to balance sales.
+
+Strategic Recommendations
+Run promotions for underperforming SKUs to diversify revenue and reduce dependency on top sellers.
+
+Investigate mid-month spike — was it marketing-driven? If so, replicate similar campaigns.
+
+Introduce loyalty or referral programs during the second half of the month to lift declining revenue.
+
+What I Learned
+Data wrangling and cleaning with pandas
+
+Aggregating and analyzing large transaction datasets
+
+Business insight generation through data visualization
+
+Translating raw data into actionable strategy
